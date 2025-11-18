@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Meu primeiro script!!!"
+
+echo "A data de hoje é:"
+
+date +%d/%m/%y
+
+echo "E a hora atual é:"
+
+date +%H:%M:%S%p
+
+echo "Yeh"
