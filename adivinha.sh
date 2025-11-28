@@ -41,7 +41,7 @@ while true; do
     elif [ "$PALPITE" -gt "$SECRET" ]; then
       echo "Muito alto"
     else
-      echo "🎉 Parabéns! Você acertou em $TRIES tentativas."
+      echo "Parabéns! Você acertou em $TRIES tentativas."
 
       read -rp "Jogar novamente? (s/n): " OPCAO
 
